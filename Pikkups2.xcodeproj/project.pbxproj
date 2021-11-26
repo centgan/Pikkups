@@ -3,19 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C662D5325AE5A7A00344239 /* CustomerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C662D5225AE5A7A00344239 /* CustomerView.swift */; };
+		2C7141B0259E2124009D34A0 /* ForgotPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7141AF259E2124009D34A0 /* ForgotPassView.swift */; };
+		2C7141B3259E2173009D34A0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7141B2259E2173009D34A0 /* SignUpView.swift */; };
+		2C762E4525B3825F001E8E0A /* DriverHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C762E4425B3825F001E8E0A /* DriverHomeView.swift */; };
+		2C762E4825B38272001E8E0A /* CusHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C762E4725B38272001E8E0A /* CusHomeView.swift */; };
+		2C88AF0E259FE19A00EC01C7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C88AF0D259FE19A00EC01C7 /* HomeView.swift */; };
 		2C8AFDA5259D05C200A7158A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AFDA4259D05C200A7158A /* AppDelegate.swift */; };
 		2C8AFDA7259D05C200A7158A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AFDA6259D05C200A7158A /* SceneDelegate.swift */; };
 		2C8AFDA9259D05C200A7158A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AFDA8259D05C200A7158A /* ContentView.swift */; };
 		2C8AFDAB259D05C500A7158A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AFDAA259D05C500A7158A /* Assets.xcassets */; };
 		2C8AFDAE259D05C500A7158A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AFDAD259D05C500A7158A /* Preview Assets.xcassets */; };
 		2C8AFDB1259D05C500A7158A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AFDAF259D05C500A7158A /* LaunchScreen.storyboard */; };
+		2C8AFDBA259D06A000A7158A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C8AFDB9259D06A000A7158A /* GoogleService-Info.plist */; };
+		F3A53016737A08A0B8291B54 /* Pods_Pikkups2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B606B971C842D3F595F3F7 /* Pods_Pikkups2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C662D5225AE5A7A00344239 /* CustomerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerView.swift; sourceTree = "<group>"; };
+		2C7141AF259E2124009D34A0 /* ForgotPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassView.swift; sourceTree = "<group>"; };
+		2C7141B2259E2173009D34A0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		2C762E4425B3825F001E8E0A /* DriverHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverHomeView.swift; sourceTree = "<group>"; };
+		2C762E4725B38272001E8E0A /* CusHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CusHomeView.swift; sourceTree = "<group>"; };
+		2C88AF0D259FE19A00EC01C7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2C8AFDA1259D05C200A7158A /* Pikkups2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pikkups2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8AFDA4259D05C200A7158A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C8AFDA6259D05C200A7158A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,10 @@
 		2C8AFDAD259D05C500A7158A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2C8AFDB0259D05C500A7158A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C8AFDB2259D05C500A7158A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8AFDB9259D06A000A7158A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		79B606B971C842D3F595F3F7 /* Pods_Pikkups2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pikkups2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		985EA1E93DCE99DDCD2950D0 /* Pods-Pikkups2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pikkups2.release.xcconfig"; path = "Target Support Files/Pods-Pikkups2/Pods-Pikkups2.release.xcconfig"; sourceTree = "<group>"; };
+		AC64CCCC6672A2C03FA0E2DD /* Pods-Pikkups2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pikkups2.debug.xcconfig"; path = "Target Support Files/Pods-Pikkups2/Pods-Pikkups2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3A53016737A08A0B8291B54 /* Pods_Pikkups2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				2C8AFDA3259D05C200A7158A /* Pikkups2 */,
 				2C8AFDA2259D05C200A7158A /* Products */,
+				CA7FF6CCE162BE121F7ECFA4 /* Pods */,
+				7209340D67C8BE99ED89C380 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,7 +83,14 @@
 				2C8AFDAA259D05C500A7158A /* Assets.xcassets */,
 				2C8AFDAF259D05C500A7158A /* LaunchScreen.storyboard */,
 				2C8AFDB2259D05C500A7158A /* Info.plist */,
+				2C8AFDB9259D06A000A7158A /* GoogleService-Info.plist */,
 				2C8AFDAC259D05C500A7158A /* Preview Content */,
+				2C7141AF259E2124009D34A0 /* ForgotPassView.swift */,
+				2C7141B2259E2173009D34A0 /* SignUpView.swift */,
+				2C88AF0D259FE19A00EC01C7 /* HomeView.swift */,
+				2C662D5225AE5A7A00344239 /* CustomerView.swift */,
+				2C762E4425B3825F001E8E0A /* DriverHomeView.swift */,
+				2C762E4725B38272001E8E0A /* CusHomeView.swift */,
 			);
 			path = Pikkups2;
 			sourceTree = "<group>";
@@ -75,6 +103,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7209340D67C8BE99ED89C380 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79B606B971C842D3F595F3F7 /* Pods_Pikkups2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA7FF6CCE162BE121F7ECFA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC64CCCC6672A2C03FA0E2DD /* Pods-Pikkups2.debug.xcconfig */,
+				985EA1E93DCE99DDCD2950D0 /* Pods-Pikkups2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C8AFDB5259D05C500A7158A /* Build configuration list for PBXNativeTarget "Pikkups2" */;
 			buildPhases = (
+				2228B1F5E08A9761DEE373DB /* [CP] Check Pods Manifest.lock */,
 				2C8AFD9D259D05C200A7158A /* Sources */,
 				2C8AFD9E259D05C200A7158A /* Frameworks */,
 				2C8AFD9F259D05C200A7158A /* Resources */,
+				FAA1BEA948F9F67AF84E0BF5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C8AFDB1259D05C500A7158A /* LaunchScreen.storyboard in Resources */,
+				2C8AFDBA259D06A000A7158A /* GoogleService-Info.plist in Resources */,
 				2C8AFDAE259D05C500A7158A /* Preview Assets.xcassets in Resources */,
 				2C8AFDAB259D05C500A7158A /* Assets.xcassets in Resources */,
 			);
@@ -140,14 +188,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2228B1F5E08A9761DEE373DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pikkups2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAA1BEA948F9F67AF84E0BF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pikkups2/Pods-Pikkups2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pikkups2/Pods-Pikkups2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pikkups2/Pods-Pikkups2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C8AFD9D259D05C200A7158A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2C8AFDA5259D05C200A7158A /* AppDelegate.swift in Sources */,
+				2C7141B3259E2173009D34A0 /* SignUpView.swift in Sources */,
 				2C8AFDA7259D05C200A7158A /* SceneDelegate.swift in Sources */,
+				2C88AF0E259FE19A00EC01C7 /* HomeView.swift in Sources */,
+				2C762E4825B38272001E8E0A /* CusHomeView.swift in Sources */,
+				2C662D5325AE5A7A00344239 /* CustomerView.swift in Sources */,
+				2C7141B0259E2124009D34A0 /* ForgotPassView.swift in Sources */,
 				2C8AFDA9259D05C200A7158A /* ContentView.swift in Sources */,
+				2C762E4525B3825F001E8E0A /* DriverHomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +379,7 @@
 		};
 		2C8AFDB6259D05C500A7158A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC64CCCC6672A2C03FA0E2DD /* Pods-Pikkups2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -303,6 +400,7 @@
 		};
 		2C8AFDB7259D05C500A7158A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 985EA1E93DCE99DDCD2950D0 /* Pods-Pikkups2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
